@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "BMI Calculator"
+    }
+  ],
+  "settings": {
+    "workbench.startupEditor": "lastUsedEditor",
+    "workbench.welcome.enabled": false,
+    "files.exclude": {
+      "**/.git": true,
+      "**/__pycache__": true,
+      "**/*.pyc": true
+    },
+    "explorer.fileNesting.enabled": true,
+    "editor.fontSize": 13
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: BMI Calculator",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/bmi_calculator.py",
+        "console": "integratedTerminal",
+        "justMyCode": true
+      }
+    ]
+  }
+}
